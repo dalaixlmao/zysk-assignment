@@ -37,7 +37,7 @@ export default function Navbar() {
     </div>
 
       </div>
-      {open && <div className={"absolute w-3/5 top-0 border right-0 bg-white/30 backdrop-blur-md h-screen md:h-full flex md:flex-row flex-col-reverse items-center w-full justify-end pt-24 md:justify-between"}>
+      {open && <div className={"absolute w-3/5 top-0 border right-0 bg-white backdrop-blur-md h-screen md:h-full flex md:flex-row flex-col-reverse items-center w-full justify-end pt-24 md:justify-between"}>
       
         <div className="md:mt-0 mt-4 flex flex-col md:flex-row ml-8 md:w-full md:3/5 lg:w-2/5 justify-between">
           <div className="cursor-pointer flex flex-row items-center hover:text-gray-800 hover:font-bold transition-all ">
