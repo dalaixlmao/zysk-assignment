@@ -14,7 +14,7 @@ export default function Blog() {
             return (
               <div
                 key={index}
-                className="w-[400px] flex flex-col lg:mb-0 mb-12"
+                className="lg:w-[400px] w-full flex flex-col lg:mb-0 mb-12"
               >
                 <BlogElement
                   cover={b.cover}
