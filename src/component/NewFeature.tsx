@@ -9,7 +9,7 @@ import Screen2 from "../assets/screenmockup1.svg"
 
 export default function (){
     return <div
-    className="mt-[60px] mb-10 w-full h-screen flex flex-col items-center"
+    className="mt-[60px] mb-10 w-full flex flex-col items-center"
     >
         <div className=" ">
             <NewFeatureAlert />
